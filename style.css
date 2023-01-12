@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+.header {
+    display: flex;
+    height: 62px;
+    background:darkgoldenrod;
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 32px;
+}
+.left {
+    display: flex;
+    align-content: center;
+}
+.right {
+    flex: 1;
+    flex-shrink: 0;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    padding: 16px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+li {
+    margin-bottom: 16px;
+}
+.content {
+    display: flex;
+    background:darkgoldenrod;
+}
+.pos-left {
+    font-size: large;
+    padding: 2em;
+}
+.pos-right {
+    padding: 2em;
+}
+.pos-right img {
+    width: 300px;
+}
