@@ -67,6 +67,7 @@ li {
 }
 .title {
     display: flex;
+    background-color: cornsilk;
     justify-content: center;
     font-size: 36px;
     font-weight: 900;
@@ -126,6 +127,5 @@ button.signup {
     color: white;
     display: flex;
     justify-content: center;
-    width: 100%;
     padding: 5px;
 }
